@@ -13,7 +13,6 @@ while (c <= 'z')
 if (c == 'q' || c == 'e')
 {
 c++;
-c++;
 }
 else
 {
