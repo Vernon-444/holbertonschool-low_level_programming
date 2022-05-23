@@ -7,7 +7,6 @@
 int main(void)
 {
 char c = 'a';
-char C - 'A';
 while (c <= 'z')
 {
 putchar(c);
@@ -16,10 +15,10 @@ c++;
 putchar('\n');
 
 /*print in caps*/
-while (C <= 'Z')
+while (c <= 'Z')
 {
-putchar(C);
-C++;
+putchar(c);
+c++;
 }
 putchar('\n');
 return (0);
