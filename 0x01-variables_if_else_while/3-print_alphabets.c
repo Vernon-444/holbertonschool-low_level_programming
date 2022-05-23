@@ -7,18 +7,16 @@
 int main(void)
 {
 char c = 'a';
+char d = 'A';
 while (c <= 'z')
 {
 putchar(c);
 c++;
 }
-putchar('\n');
-
-/*print in caps*/
-while (c <= 'Z')
+while (d <= 'Z')
 {
-putchar(c);
-c++;
+putchar(d);
+d++;
 }
 putchar('\n');
 return (0);
