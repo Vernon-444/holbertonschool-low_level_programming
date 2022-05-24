@@ -1,8 +1,6 @@
 /**
  * jack_bauer - prints every minute of the day
  *
- *
- *
  * Return: 0 0n success
  */
 
@@ -14,11 +12,11 @@ for (h = 0; h < 24; h++)
 {
 for (m = 0; m < 60; m++)
 {
-_putchar('0' + i / 10);
-_putchar('0' + i % 10);
+_putchar('0' + h / 10);
+_putchar('0' + h % 10);
 _putchar(':');
-_putchar('0' + j / 10);
-_putchar('0' + j % 10);
+_putchar('0' + m / 10);
+_putchar('0' + m % 10);
 _putchar('\n');
 }
 }
