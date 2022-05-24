@@ -1,0 +1,19 @@
+#include "main.h"
+/**
+ * main - outputs alphabet using main.h
+ *
+ * Return: 0 if successful
+ */
+
+int main (void)
+{
+  char c [] = "_putchar\n";
+  int i;
+  i = 0;
+  while (c[i] != '\0')
+    {
+      _putchar(c[i]);
+      i++
+	}
+  return (0);
+}
