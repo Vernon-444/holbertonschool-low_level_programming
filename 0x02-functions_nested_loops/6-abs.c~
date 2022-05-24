@@ -1,0 +1,19 @@
+#include "main.h"
+
+/**
+ * int_abs - computes abs of a value
+ *
+ * @n: num used to calculate abs
+ *
+ *Return: returns abs of n
+ */
+
+int _abs(int n);
+{
+if (n < 0)
+{
+n = n * -1;
+}
+printf ("%d\n", n);
+return (0);
+}
