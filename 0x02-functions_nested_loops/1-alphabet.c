@@ -11,6 +11,7 @@ char c;
 
 for (c = 'a'; c <= 'z'; c++)
 {
-_putchar("%d\n", c);
+_putchar(c);
+_putchar("\n");
 }
 }
