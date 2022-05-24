@@ -1,0 +1,6 @@
+/** This main page is for 0x02 nested loops */
+
+void _putchar(char c)
+{
+  printf("%d\n", char c);
+}
