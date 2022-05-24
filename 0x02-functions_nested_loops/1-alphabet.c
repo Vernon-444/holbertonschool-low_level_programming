@@ -1,8 +1,6 @@
 #include "main.h"
- /**
- * main - prints _putchar followed by a new line
- *
- * Return: 0 on success
+/**
+ * print_alphabet - prints alphabet followed by a new line
  */
 
 void print_alphabet(void)
