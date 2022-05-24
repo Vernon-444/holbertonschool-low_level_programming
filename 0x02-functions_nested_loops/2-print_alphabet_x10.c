@@ -6,7 +6,8 @@
 void print_alphabet(void)
 {
 char c;
-for (int i = 0; i < 10; i ++)
+int i = 0;
+for (i = 0; i < 10; i ++)
 {
 for (c = 'a'; c <= 'z'; c++)
 {
