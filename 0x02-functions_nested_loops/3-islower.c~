@@ -1,0 +1,9 @@
+#include "main.h"
+/**
+ * _islower - checks string for a lowercase character
+ */
+
+int _islower(int c)
+{
+  
+}
