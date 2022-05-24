@@ -1,0 +1,10 @@
+/**
+ * add - gets sum of 2 nums
+ *
+ * Return: 0 on success
+ */
+
+int add(int n, int m)
+{
+return (n + m);
+}
