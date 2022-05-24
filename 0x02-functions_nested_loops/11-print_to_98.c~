@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include "main.h"
+/**
+ * print_to_98 - prints natural num from n to 98
+ *
+ * @n: var used to compair and count to 98
+ *
+ * Return: 0 on success
+ */
+
+void print_to_98(int n)
+{
+  for(n =< 98)
+}
