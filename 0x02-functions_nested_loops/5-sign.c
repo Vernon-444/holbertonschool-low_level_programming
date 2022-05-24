@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * print_sign - tests numbers and generates output
  *
