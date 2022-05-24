@@ -1,5 +1,5 @@
 /**
- * times_table - creates a multiplication table 
+ * times_table - creates a multiplication table
  *
  *
  *
