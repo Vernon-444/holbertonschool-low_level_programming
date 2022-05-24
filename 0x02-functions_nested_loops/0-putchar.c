@@ -5,11 +5,15 @@
  * Return: 0 on success
  */
 
-void print_alphabet(void)
+int main(void)
 {
-char c;
+char c[] = "_putchar\n";
+int i = 0;
 
-for (c = 'a'; c <= 'z'; c++)
+while (c[i] != '\0')
 {
-_putchar("%d\n", c);
+_putchar[i]);
+i++
+}
+return (0);
 }
