@@ -14,9 +14,9 @@ void more_numbers(void)
 	int col = 0;
 	int fd, ld;
 
-	for (col < 10)
+	while (col < 10)
 	{
-		for (row < 15)
+		while (row < 15)
 		{
 			if (row > 9)
 			{
