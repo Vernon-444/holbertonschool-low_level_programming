@@ -26,6 +26,9 @@ void more_numbers(void)
 			ld = row % 10;
 			_putchar(ld);
 			_putchar(10);
+			row++;
 		}
+		row = 0;
+		col++;
 	}
 }
