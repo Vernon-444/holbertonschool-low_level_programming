@@ -21,14 +21,14 @@ void more_numbers(void)
 			if (row > 9)
 			{
 				fd = row / 10;
-				_putchar(fd);
+				_putchar(fd + 48);
 			}
 			ld = row % 10;
-			_putchar(ld);
-			_putchar(10);
+			_putchar(ld + 48);
 			row++;
 		}
-		row = 0;
+		_putchar(10);
 		col++;
+		row = 0;
 	}
 }
