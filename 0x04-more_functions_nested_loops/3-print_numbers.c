@@ -15,4 +15,5 @@ void print_numbers(void)
 		i++;
 	}
 	putchar(10);
+	return(0);
 }
