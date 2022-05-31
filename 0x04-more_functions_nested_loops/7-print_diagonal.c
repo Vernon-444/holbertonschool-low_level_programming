@@ -9,23 +9,20 @@
 
 void print_diagonal(int n)
 {
-	int i, j;
+	int spacesnumber, linesnumber;
 
-	i = 0;
-
-	if (n < 1)
-	{
-		_putchar(10);
-	}
-	
-	while (i <= n)
-	{
-		for (j = 0; j < i; j++)
+	if (n > 0)
+		for (linenumber = 1; linesnumber <= n; linesnumber++)
 		{
-			_putchar(' ');
+			spacesnumber = (linesnumber - 1);
+			while (spacesnumber > 0)
+			{
+				_putchar(32);
+				spacesnumber--;
+			}
+			_putchar(92);
+			_putchar(10);
 		}
-		_putchar(92);
+	else
 		_putchar(10);
-		i++;
-	}
 }
