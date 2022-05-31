@@ -10,7 +10,6 @@
 
 int _isupper(int c)
 {
-	int c;
 
 	_putchar(c);
 	_putchar(':');
