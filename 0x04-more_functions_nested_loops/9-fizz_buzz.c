@@ -4,8 +4,6 @@
 /**
  * main - prints fizzbuzz test
  *
- * @i: tests and counts
- *
  * Return: 0 0n success
  */
 
