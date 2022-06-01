@@ -1,16 +1,17 @@
 #include "main.h"
 /**
- * print_rev - prints a string to stdout
+ * _puts - prints a string to stdout
  *
- * @s: increment char
+ * @str: increment char
  */
 
 void _puts(char *str)
 {
-
-	while (*str)
-	{
-		_putchar(*str);
-		s++;
-	}
+	while (*str++)
+		while (*str)
+		{
+			_putchar(*str);
+			*str++;
+		}
+	_putchar(10);
 }
