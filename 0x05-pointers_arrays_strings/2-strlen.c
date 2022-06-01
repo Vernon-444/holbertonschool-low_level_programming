@@ -4,7 +4,7 @@
  *
  * @s: variable used for comparison
  *
- * return; 0 0n success
+ * Return: length of the string
  */
 
 int _strlen(char *s)
