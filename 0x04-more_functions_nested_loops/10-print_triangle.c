@@ -16,7 +16,7 @@ void print_triangle(int size)
 	{
 		for (dad = 1; dad < size; dad++)
 		{
-			for (baby = 0; baby < size; baby++)
+			for (baby = 1; baby < size; baby++)
 			{
 				if (baby <= stage)
 				{
