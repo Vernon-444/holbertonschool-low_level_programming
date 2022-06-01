@@ -7,15 +7,13 @@
 
 void print_rev(char *s)
 {
-	int count = 1;
+	int count = 0;
 
 	while (*s)
 	{
 		count++;
 		s++;
 	}
-
-	s--;
 
 	while (count--)
 	{
