@@ -5,20 +5,12 @@
  * @s: increment char
  */
 
-void print_rev(char *s)
+void _puts(char *str)
 {
-	int count = 0;
 
-	while (*s)
+	while (*str)
 	{
-		count++;
+		_putchar(*str);
 		s++;
 	}
-
-	while (count--)
-	{
-		_putchar(*s);
-		s--;
-	}
-	_putchar(10);
 }
