@@ -9,12 +9,10 @@
 
 void _puts(char *str)
 {
-	int i = 0;
-
-	while (str++)
+	while (*str++)
 	{
-		_putchar(*str + 65);
-		i++;
+		_putchar(*str);
 	}
+	_putchar(10);
 	return (0);
 }
