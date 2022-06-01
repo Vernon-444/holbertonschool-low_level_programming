@@ -3,8 +3,6 @@
  * _puts - prints a string to stdout
  *
  * @str: increment char
- *
- * Return: 0 on success
  */
 
 void _puts(char *str)
@@ -14,5 +12,4 @@ void _puts(char *str)
 		_putchar(*str);
 	}
 	_putchar(10);
-	return (0);
 }
