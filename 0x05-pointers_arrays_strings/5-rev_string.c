@@ -1,14 +1,15 @@
 #include "main.h"
 /**
- * print_rev - prints a string to stdout
+ * rev_string - prints a string in rev
  *
  * @s: string to be modified
  */
 
 void rev_string(char *s)
 {
-        int i, j;
+	int i, j;
 	char a[500];
+	
 	i = 0;
 	j = 0;
 	while (*(s + i))
