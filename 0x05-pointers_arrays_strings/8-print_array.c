@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
  * print_array - prints array of n variables
  *
@@ -19,7 +21,7 @@ void print_array(int *a, int n)
 		{
 			printf("%d, ", a[i]);
 		}
-		printf(a[n]);
+		printf("%d", a[n]);
 	}
 	printf("\n");
 }
