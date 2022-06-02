@@ -2,7 +2,7 @@
 /**
  * print_rev - prints a string to stdout
  *
- * @s: increment char
+ * @s: string to be modified
  */
 
 void rev_string(char *s)
@@ -16,9 +16,8 @@ void rev_string(char *s)
 	}
 
 	s--;
-	count = count / 2;
 
-	while (count)
+	while (count > 0)
 	{
 		_putchar(*s);
 		s--;
