@@ -1,6 +1,4 @@
 #include "holberton.h"
-#include "../0x05-pointers_arrays_strings/main.h"
-#include "../0x05-pointers_arrays_strings/2-strlen.c"
 /**
  * _strncat - concatenates two strings
  *
@@ -13,8 +11,13 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int dest_len = _strlen(dest);
-	int i;
+	int dest_len = 0, i = 0;
+
+	while (dest[i] != '\0')
+	{
+		dest_len++;
+		i++;
+	}
 
 	for (i = 0; i < n && src[i]; i++)
 		{
