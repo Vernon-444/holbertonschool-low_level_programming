@@ -1,4 +1,4 @@
-#iclude "holberton.h"
+#include "holberton.h"
 /**
  * reverse_array - reverses content of an array of int
  *
@@ -14,7 +14,7 @@ void reverse_array(int *a, int n)
 	int temp;
 
 	n = n - 1;
-	
+
 	for (i = 0; i < n / 2; i++)
 	{
 		temp = a[i];
