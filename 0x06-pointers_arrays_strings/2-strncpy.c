@@ -4,6 +4,7 @@
  *
  *@dest: destination of copeied string
  *@src: string to be copied
+ *@n: int
  *
  * Return: 0 0n success
  */
