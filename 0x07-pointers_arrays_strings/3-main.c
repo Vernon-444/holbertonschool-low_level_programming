@@ -1,16 +1,18 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * _strspn - gets len of prefix substring
+ * main - check the code
  *
- * @s: string to be modified
- * @accept: accepted bytes
- *
- * Return: s
+ * Return: Always 0.
  */
-
-unsigned int _strspn(char *s, char *accept)
+int main(void)
 {
-	suck my ass.
-		
+	char *s = "hello, world";
+	char *f = "hello, world";
+	unsigned int n;
+
+	n = _strspn(s, f);
+	printf("%u\n", n);
+	return (0);
 }
