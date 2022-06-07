@@ -21,14 +21,11 @@ char *_strchr(char *s, char c)
 
 	for (i = 0; i <= slen; i++)
 	{
-		if (s[i] = c)
+		if (s[i] == c)
 		{
 			return (&s[i]);
-			i = slen;
-		}
-		else if (s[i] != c && i = slen)
-		{
-			return (NULL);
+			i = slen + 1;
 		}
 	}
+		return ('\0');
 }
