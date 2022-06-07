@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * memcpy - copies the memory area
+ * _memcpy - copies the memory area
  *
  * @dest: return destination
  * @src: string to be modiefied
