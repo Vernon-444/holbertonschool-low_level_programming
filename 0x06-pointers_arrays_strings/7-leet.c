@@ -17,9 +17,9 @@ char *leet(char *c)
 		for (i = 0; i < 10; i++)
 		{
 			if (c[j] == duggy[i])
-				{
-					c[j] = duggy[i + 10];
-				}
+			{
+				c[j] = duggy[i + 10];
+			}
 
 		}
 	}
