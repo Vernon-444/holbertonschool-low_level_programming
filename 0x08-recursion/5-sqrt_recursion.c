@@ -2,8 +2,8 @@
 #include "4-pow_recursion.c"
 
 /**
- * _sqrt_recursion - uses pow functoin to help calculate sqrt of int n
- *
+ * _sqrt_recursion - uses find_sqrt to get sqrt
+ * find_sqrt - functin using recursion to calculate if sqrt of n is real
  * @n: int to be checked
  *
  * Return: sqrt in form of int
