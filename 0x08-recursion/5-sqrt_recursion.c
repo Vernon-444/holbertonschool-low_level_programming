@@ -8,15 +8,6 @@
  * Return: sqrt in form of int
  */
 
-/**
- * find_sqrt - calculates sqrt for above funct
- *
- * @prev: increment var
- * @find: n
- *
- * Return: sqrt int
- */
-
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
@@ -25,6 +16,15 @@ int _sqrt_recursion(int n)
 	}
 	return (find_sqrt(0, n));
 }
+
+/**
+ * find_sqrt - calc sqrt
+ *
+ * @prev: incriment var
+ * @find: n value
+ *
+ * Return: int if sqrt is real, -1 if not
+ */
 
 int find_sqrt(int prev, int find)
 {
