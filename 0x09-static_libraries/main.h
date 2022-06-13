@@ -1,4 +1,4 @@
-#indef MAIN_H
+#ifndef MAIN_H
 #define MAIN_H
 
 /** This is a header file for the 0x09 Project */
