@@ -10,5 +10,4 @@
 
 int _atoi(char *s)
 {
-	asdf
 }

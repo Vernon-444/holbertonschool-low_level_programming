@@ -10,3 +10,5 @@ int _sqrt_recursion(int n);
 int is_prime_number(int n);
 int find_sqrt(int prev, int find);
 int prime_fighter(int i, int n);
+int is_palindrome(char *s);
+int whos_your_douggy(char *s);
