@@ -25,28 +25,24 @@ int main(int argc, char *argv[])
 		if (change >= 25)
 		{
 			change -= 25;
-			coincount++;
 		}
-		if (change >= 10 && change < 25)
+		else if (change >= 10 && change < 25)
 		{
 			change -= 10;
-			coincount++;
 		}
-		if (change >= 5 && change < 10)
+		else if (change >= 5 && change < 10)
 		{
 			change -= 5;
-			coincount++;
 		}
-		if (change >= 2 && change < 5)
+		else if (change >= 2 && change < 5)
 		{
 			change -= 2;
-			coincount++;
 		}
 		else if (change == 1)
 		{
 			change--;
-			coincount++;
 		}
+		coincount++;
 
 	}
 	printf("%d\n", coincount);
