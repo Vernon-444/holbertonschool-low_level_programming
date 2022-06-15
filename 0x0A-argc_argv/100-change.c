@@ -10,13 +10,15 @@
 
 int main(int argc, char *argv[])
 {
-	int change = atoi(argv[1]), coincount = 0;
+	int change, coincount = 0;
 
 	if (argc != 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
+
+	change = atoi(argv[1]);
 
 	while (change > 0)
 	{
