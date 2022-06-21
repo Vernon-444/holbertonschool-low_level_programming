@@ -32,4 +32,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		i++;
 	}
 
-	return(s);
+	return (s);
+}
+
