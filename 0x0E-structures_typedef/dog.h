@@ -4,6 +4,14 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+/**
+ * struct dog - struct
+ * @name: ...
+ * @age: ...
+ * @owner: ...
+ *
+ * Description: Structure made to hold info about dog
+ */
 
 struct dog
 {
