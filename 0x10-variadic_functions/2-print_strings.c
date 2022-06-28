@@ -40,9 +40,10 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		printf("%s", separator);
 	}
 	a = va_arg(list, char *);
-	if (a)
+
+	if (a == NULL)
 	{
-		printf("%s\n", a);
+		printf("(nil)\n");
 	}
 	else
 	{
