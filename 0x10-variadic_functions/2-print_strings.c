@@ -26,9 +26,10 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		separator = "";
 	}
 
-        for (i = 0; i < n - 1; i++)
+	for (i = 0; i < n - 1; i++)
 	{
 		a = va_arg(list, char *);
+
 		if (a)
 		{
 			printf("%s", a);
