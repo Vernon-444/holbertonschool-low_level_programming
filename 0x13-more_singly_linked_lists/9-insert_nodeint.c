@@ -22,14 +22,15 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	p1 = *head;
 	p2 = *head;
 
-	while (i != idx && head != NULL)
+	while (i != idx && p1 != NULL)
 	{
 		p1 = p1->next;
 		p2 = p2->next;
 		i++;
 	}
 
-	p2 = p2->next;
+	if(p2->next != NULL)
+		p2 = p2->next;
 
 	p1->next = insert;
 	insert->next = p2;
