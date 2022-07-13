@@ -14,10 +14,8 @@ unsigned int binary_to_uint(const char *b)
 	int len = 0;
 	char *cp = strdup(b);
 
-	if (cp == NULL)
-	{
+	if (b == NULL)
 		return (0);
-	}
 
 	while (cp[len] != '\0')
 	{
