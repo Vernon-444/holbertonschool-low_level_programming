@@ -21,6 +21,9 @@ unsigned int binary_to_uint(const char *b)
 
 	for (len -= 1; len >= 0; len--)
 	{
+
+		len = strlen(cp);
+		
 		if (cp[len] != '0' && cp[len] != '1')
 			return (0);
 
