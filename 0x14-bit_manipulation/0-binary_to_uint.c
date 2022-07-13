@@ -12,23 +12,24 @@ unsigned int binary_to_uint(const char *b)
 {
 	unsigned int num = 0, mult = 1;
 	int len;
+	char *cp = strdup(b);
 
-	if (b == '\0')
+	if (cp == NULL)
 	{
 		return (0);
 	}
 
-	while (b[len] != '\0')
+	while (cp[len] != '\0')
 	{
 		len++;
 	}
 
 	for (len -= 1; len >= 0; len--)
 	{
-		if (b[len] != '0' && b[len] != '1')
+		if (cp[len] != '0' && cp[len] != '1')
 			return (0);
 
-		num += (b[len] - '0') * mult;
+		num += (cp[len] - '0') * mult;
 		mult *= 2;
 	}
 
