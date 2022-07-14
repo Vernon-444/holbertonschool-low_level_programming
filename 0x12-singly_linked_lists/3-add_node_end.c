@@ -1,15 +1,5 @@
 #include "lists.h"
 
-/**
- * add_node_end - adds a new node at the end of list_t
- *
- * @head: pointer to head
- *
- * @str: list of names provided
- *
- * Return: node and list
- */
-
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *new_list, *temp;
@@ -21,7 +11,7 @@ list_t *add_node_end(list_t **head, const char *str)
 			return (NULL);
 
 		new_list->str = strdup(str);
-		new_list->len = _strlen(str);
+		new_list->len = strlen(str);
 		new_list->next = NULL;
 
 		if (*head == NULL)
@@ -41,23 +31,4 @@ list_t *add_node_end(list_t **head, const char *str)
 	}
 
 	return (NULL);
-}
-
-/**
- * _strlen - Returns the length of a string
- * @s: String to count
- *
- * Return: String length
- */
-int _strlen(const char *s)
-{
-	int c = 0;
-
-	while (*s)
-	{
-		s++;
-		c++;
-	}
-
-	return (c);
 }
