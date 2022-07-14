@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_binary - prints binary to base 10
+ * print_binary - Prints the binary representation of a number
+ * @n: The number to representing in binary
  *
- * @n: binary num to be printed
+ * Return: Nothing
  */
-
 void print_binary(unsigned long int n)
 {
 	if (n == 0)
