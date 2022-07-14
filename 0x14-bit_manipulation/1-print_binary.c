@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * print_binary - prints binary to base 10
+ *
+ * @n: binary num to be printed
+ */
+
 void print_binary(unsigned long int n)
 {
 	if (n == 0)
@@ -29,4 +35,3 @@ void _divide(unsigned long int n)
 	else
 		_putchar('0');
 }
-
